@@ -1,0 +1,603 @@
+Lista chei:[['i', 'i', 'd'], ['d', 'i', 'd'], ['g', 'd', 'g']]
+Initial: [ inc(i,1), inc(i,1), (i,1)]
+Solutie: 1
+1) Incuietori: [ inc(i,1), inc(i,1), (i,1)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(d,0), inc(i,2), (d,0)]
+2) Incuietori: [ inc(d,0), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,1), (d,0)]
+3) Incuietori: [ inc(d,0), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(d,0), (d,0)]
+Incuietori(stare scop): [ inc(d,0), inc(d,0), (d,0)]
+S-au realizat : 3 operatii.
+Lungimea drumului: 4
+Runtime of the program is: 0.0
+-------------------------------------------------------
+Solutie: 2
+1) Incuietori: [ inc(i,1), inc(i,1), (i,1)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(d,0), (i,1)]
+2) Incuietori: [ inc(i,1), inc(d,0), (i,1)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(d,0), inc(i,1), (d,0)]
+3) Incuietori: [ inc(d,0), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(d,0), (d,0)]
+Incuietori(stare scop): [ inc(d,0), inc(d,0), (d,0)]
+S-au realizat : 3 operatii.
+Lungimea drumului: 4
+Runtime of the program is: 0.0
+-------------------------------------------------------
+Solutie: 3
+1) Incuietori: [ inc(i,1), inc(i,1), (i,1)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,2), (d,0)]
+2) Incuietori: [ inc(i,2), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,2), inc(i,1), (d,0)]
+3) Incuietori: [ inc(i,2), inc(i,1), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,1), inc(i,2), (d,0)]
+4) Incuietori: [ inc(i,1), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(i,1), (d,0)]
+5) Incuietori: [ inc(i,1), inc(i,1), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(d,0), inc(i,2), (d,0)]
+6) Incuietori: [ inc(d,0), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,1), (d,0)]
+7) Incuietori: [ inc(d,0), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(d,0), (d,0)]
+Incuietori(stare scop): [ inc(d,0), inc(d,0), (d,0)]
+S-au realizat : 7 operatii.
+Lungimea drumului: 8
+Runtime of the program is: 0.03124690055847168
+-------------------------------------------------------
+Solutie: 4
+1) Incuietori: [ inc(i,1), inc(i,1), (i,1)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,2), (d,0)]
+2) Incuietori: [ inc(i,2), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,2), inc(i,1), (d,0)]
+3) Incuietori: [ inc(i,2), inc(i,1), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,1), inc(i,2), (d,0)]
+4) Incuietori: [ inc(i,1), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(i,1), (d,0)]
+5) Incuietori: [ inc(i,1), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(d,0), (d,0)]
+6) Incuietori: [ inc(i,1), inc(d,0), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(d,0), inc(i,1), (d,0)]
+7) Incuietori: [ inc(d,0), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(d,0), (d,0)]
+Incuietori(stare scop): [ inc(d,0), inc(d,0), (d,0)]
+S-au realizat : 7 operatii.
+Lungimea drumului: 8
+Runtime of the program is: 0.03124690055847168
+-------------------------------------------------------
+Solutie: 5
+1) Incuietori: [ inc(i,1), inc(i,1), (i,1)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,2), (d,0)]
+2) Incuietori: [ inc(i,2), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,2), inc(i,1), (d,0)]
+3) Incuietori: [ inc(i,2), inc(i,1), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,1), inc(i,2), (d,0)]
+4) Incuietori: [ inc(i,1), inc(i,2), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(d,0), inc(i,3), (d,0)]
+5) Incuietori: [ inc(d,0), inc(i,3), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,2), (d,0)]
+6) Incuietori: [ inc(d,0), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,1), (d,0)]
+7) Incuietori: [ inc(d,0), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(d,0), (d,0)]
+Incuietori(stare scop): [ inc(d,0), inc(d,0), (d,0)]
+S-au realizat : 7 operatii.
+Lungimea drumului: 8
+Runtime of the program is: 0.03124690055847168
+-------------------------------------------------------
+Solutie: 6
+1) Incuietori: [ inc(i,1), inc(i,1), (i,1)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,2), (d,0)]
+2) Incuietori: [ inc(i,2), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,2), inc(i,1), (d,0)]
+3) Incuietori: [ inc(i,2), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,2), inc(d,0), (d,0)]
+4) Incuietori: [ inc(i,2), inc(d,0), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,1), inc(i,1), (d,0)]
+5) Incuietori: [ inc(i,1), inc(i,1), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(d,0), inc(i,2), (d,0)]
+6) Incuietori: [ inc(d,0), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,1), (d,0)]
+7) Incuietori: [ inc(d,0), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(d,0), (d,0)]
+Incuietori(stare scop): [ inc(d,0), inc(d,0), (d,0)]
+S-au realizat : 7 operatii.
+Lungimea drumului: 8
+Runtime of the program is: 0.03124690055847168
+-------------------------------------------------------
+Solutie: 7
+1) Incuietori: [ inc(i,1), inc(i,1), (i,1)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,2), (d,0)]
+2) Incuietori: [ inc(i,2), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,2), inc(i,1), (d,0)]
+3) Incuietori: [ inc(i,2), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,2), inc(d,0), (d,0)]
+4) Incuietori: [ inc(i,2), inc(d,0), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,1), inc(i,1), (d,0)]
+5) Incuietori: [ inc(i,1), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(d,0), (d,0)]
+6) Incuietori: [ inc(i,1), inc(d,0), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(d,0), inc(i,1), (d,0)]
+7) Incuietori: [ inc(d,0), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(d,0), (d,0)]
+Incuietori(stare scop): [ inc(d,0), inc(d,0), (d,0)]
+S-au realizat : 7 operatii.
+Lungimea drumului: 8
+Runtime of the program is: 0.03124690055847168
+-------------------------------------------------------
+Solutie: 8
+1) Incuietori: [ inc(i,1), inc(i,1), (i,1)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,2), (d,0)]
+2) Incuietori: [ inc(i,2), inc(i,2), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,1), inc(i,3), (d,0)]
+3) Incuietori: [ inc(i,1), inc(i,3), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(d,0), inc(i,4), (d,0)]
+4) Incuietori: [ inc(d,0), inc(i,4), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,3), (d,0)]
+5) Incuietori: [ inc(d,0), inc(i,3), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,2), (d,0)]
+6) Incuietori: [ inc(d,0), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,1), (d,0)]
+7) Incuietori: [ inc(d,0), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(d,0), (d,0)]
+Incuietori(stare scop): [ inc(d,0), inc(d,0), (d,0)]
+S-au realizat : 7 operatii.
+Lungimea drumului: 8
+Runtime of the program is: 0.04686784744262695
+-------------------------------------------------------
+Solutie: 9
+1) Incuietori: [ inc(i,1), inc(i,1), (i,1)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,2), (d,0)]
+2) Incuietori: [ inc(i,2), inc(i,2), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,1), inc(i,3), (d,0)]
+3) Incuietori: [ inc(i,1), inc(i,3), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(i,2), (d,0)]
+4) Incuietori: [ inc(i,1), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(i,1), (d,0)]
+5) Incuietori: [ inc(i,1), inc(i,1), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(d,0), inc(i,2), (d,0)]
+6) Incuietori: [ inc(d,0), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,1), (d,0)]
+7) Incuietori: [ inc(d,0), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(d,0), (d,0)]
+Incuietori(stare scop): [ inc(d,0), inc(d,0), (d,0)]
+S-au realizat : 7 operatii.
+Lungimea drumului: 8
+Runtime of the program is: 0.04686784744262695
+-------------------------------------------------------
+Solutie: 10
+1) Incuietori: [ inc(i,1), inc(i,1), (i,1)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,2), (d,0)]
+2) Incuietori: [ inc(i,2), inc(i,2), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,1), inc(i,3), (d,0)]
+3) Incuietori: [ inc(i,1), inc(i,3), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(i,2), (d,0)]
+4) Incuietori: [ inc(i,1), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(i,1), (d,0)]
+5) Incuietori: [ inc(i,1), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(d,0), (d,0)]
+6) Incuietori: [ inc(i,1), inc(d,0), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(d,0), inc(i,1), (d,0)]
+7) Incuietori: [ inc(d,0), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(d,0), (d,0)]
+Incuietori(stare scop): [ inc(d,0), inc(d,0), (d,0)]
+S-au realizat : 7 operatii.
+Lungimea drumului: 8
+Runtime of the program is: 0.04686784744262695
+-------------------------------------------------------
+Solutie: 11
+1) Incuietori: [ inc(i,1), inc(i,1), (i,1)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,2), (d,0)]
+2) Incuietori: [ inc(i,2), inc(i,2), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,1), inc(i,3), (d,0)]
+3) Incuietori: [ inc(i,1), inc(i,3), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(i,2), (d,0)]
+4) Incuietori: [ inc(i,1), inc(i,2), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(d,0), inc(i,3), (d,0)]
+5) Incuietori: [ inc(d,0), inc(i,3), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,2), (d,0)]
+6) Incuietori: [ inc(d,0), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,1), (d,0)]
+7) Incuietori: [ inc(d,0), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(d,0), (d,0)]
+Incuietori(stare scop): [ inc(d,0), inc(d,0), (d,0)]
+S-au realizat : 7 operatii.
+Lungimea drumului: 8
+Runtime of the program is: 0.04686784744262695
+-------------------------------------------------------
+Solutie: 12
+1) Incuietori: [ inc(i,1), inc(i,1), (i,1)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(d,0), inc(i,2), (d,0)]
+2) Incuietori: [ inc(d,0), inc(i,2), (d,0)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,1), inc(i,3), (d,0)]
+3) Incuietori: [ inc(i,1), inc(i,3), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(i,2), (d,0)]
+4) Incuietori: [ inc(i,1), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(i,1), (d,0)]
+5) Incuietori: [ inc(i,1), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(d,0), (d,0)]
+6) Incuietori: [ inc(i,1), inc(d,0), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(d,0), inc(i,1), (d,0)]
+7) Incuietori: [ inc(d,0), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(d,0), (d,0)]
+Incuietori(stare scop): [ inc(d,0), inc(d,0), (d,0)]
+S-au realizat : 7 operatii.
+Lungimea drumului: 8
+Runtime of the program is: 0.0781099796295166
+-------------------------------------------------------
+Solutie: 13
+1) Incuietori: [ inc(i,1), inc(i,1), (i,1)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(d,0), (i,1)]
+2) Incuietori: [ inc(i,1), inc(d,0), (i,1)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,1), (d,0)]
+3) Incuietori: [ inc(i,2), inc(i,1), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,1), inc(i,2), (d,0)]
+4) Incuietori: [ inc(i,1), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(i,1), (d,0)]
+5) Incuietori: [ inc(i,1), inc(i,1), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(d,0), inc(i,2), (d,0)]
+6) Incuietori: [ inc(d,0), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,1), (d,0)]
+7) Incuietori: [ inc(d,0), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(d,0), (d,0)]
+Incuietori(stare scop): [ inc(d,0), inc(d,0), (d,0)]
+S-au realizat : 7 operatii.
+Lungimea drumului: 8
+Runtime of the program is: 0.0781099796295166
+-------------------------------------------------------
+Solutie: 14
+1) Incuietori: [ inc(i,1), inc(i,1), (i,1)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(d,0), (i,1)]
+2) Incuietori: [ inc(i,1), inc(d,0), (i,1)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,1), (d,0)]
+3) Incuietori: [ inc(i,2), inc(i,1), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,1), inc(i,2), (d,0)]
+4) Incuietori: [ inc(i,1), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(i,1), (d,0)]
+5) Incuietori: [ inc(i,1), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(d,0), (d,0)]
+6) Incuietori: [ inc(i,1), inc(d,0), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(d,0), inc(i,1), (d,0)]
+7) Incuietori: [ inc(d,0), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(d,0), (d,0)]
+Incuietori(stare scop): [ inc(d,0), inc(d,0), (d,0)]
+S-au realizat : 7 operatii.
+Lungimea drumului: 8
+Runtime of the program is: 0.0781099796295166
+-------------------------------------------------------
+Solutie: 15
+1) Incuietori: [ inc(i,1), inc(i,1), (i,1)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(d,0), (i,1)]
+2) Incuietori: [ inc(i,1), inc(d,0), (i,1)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,1), (d,0)]
+3) Incuietori: [ inc(i,2), inc(i,1), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,1), inc(i,2), (d,0)]
+4) Incuietori: [ inc(i,1), inc(i,2), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(d,0), inc(i,3), (d,0)]
+5) Incuietori: [ inc(d,0), inc(i,3), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,2), (d,0)]
+6) Incuietori: [ inc(d,0), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,1), (d,0)]
+7) Incuietori: [ inc(d,0), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(d,0), (d,0)]
+Incuietori(stare scop): [ inc(d,0), inc(d,0), (d,0)]
+S-au realizat : 7 operatii.
+Lungimea drumului: 8
+Runtime of the program is: 0.0781099796295166
+-------------------------------------------------------
+Solutie: 16
+1) Incuietori: [ inc(i,1), inc(i,1), (i,1)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(d,0), (i,1)]
+2) Incuietori: [ inc(i,1), inc(d,0), (i,1)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,1), (d,0)]
+3) Incuietori: [ inc(i,2), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,2), inc(d,0), (d,0)]
+4) Incuietori: [ inc(i,2), inc(d,0), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,1), inc(i,1), (d,0)]
+5) Incuietori: [ inc(i,1), inc(i,1), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(d,0), inc(i,2), (d,0)]
+6) Incuietori: [ inc(d,0), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,1), (d,0)]
+7) Incuietori: [ inc(d,0), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(d,0), (d,0)]
+Incuietori(stare scop): [ inc(d,0), inc(d,0), (d,0)]
+S-au realizat : 7 operatii.
+Lungimea drumului: 8
+Runtime of the program is: 0.0781099796295166
+-------------------------------------------------------
+Solutie: 17
+1) Incuietori: [ inc(i,1), inc(i,1), (i,1)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(d,0), (i,1)]
+2) Incuietori: [ inc(i,1), inc(d,0), (i,1)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,1), (d,0)]
+3) Incuietori: [ inc(i,2), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,2), inc(d,0), (d,0)]
+4) Incuietori: [ inc(i,2), inc(d,0), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,1), inc(i,1), (d,0)]
+5) Incuietori: [ inc(i,1), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(d,0), (d,0)]
+6) Incuietori: [ inc(i,1), inc(d,0), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(d,0), inc(i,1), (d,0)]
+7) Incuietori: [ inc(d,0), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(d,0), (d,0)]
+Incuietori(stare scop): [ inc(d,0), inc(d,0), (d,0)]
+S-au realizat : 7 operatii.
+Lungimea drumului: 8
+Runtime of the program is: 0.0781099796295166
+-------------------------------------------------------
+Solutie: 18
+1) Incuietori: [ inc(i,1), inc(i,1), (i,1)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(d,0), inc(i,2), (d,0)]
+2) Incuietori: [ inc(d,0), inc(i,2), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(d,0), inc(i,3), (d,0)]
+3) Incuietori: [ inc(d,0), inc(i,3), (d,0)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,1), inc(i,4), (d,0)]
+4) Incuietori: [ inc(i,1), inc(i,4), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(i,3), (d,0)]
+5) Incuietori: [ inc(i,1), inc(i,3), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(i,2), (d,0)]
+6) Incuietori: [ inc(i,1), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(i,1), (d,0)]
+7) Incuietori: [ inc(i,1), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(d,0), (d,0)]
+8) Incuietori: [ inc(i,1), inc(d,0), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(d,0), inc(i,1), (d,0)]
+9) Incuietori: [ inc(d,0), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(d,0), (d,0)]
+Incuietori(stare scop): [ inc(d,0), inc(d,0), (d,0)]
+S-au realizat : 9 operatii.
+Lungimea drumului: 10
+Runtime of the program is: 1.4842455387115479
+-------------------------------------------------------
+Solutie: 19
+1) Incuietori: [ inc(i,1), inc(i,1), (i,1)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,2), (d,0)]
+2) Incuietori: [ inc(i,2), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,2), inc(i,1), (d,0)]
+3) Incuietori: [ inc(i,2), inc(i,1), (d,0)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,3), inc(i,2), (d,0)]
+4) Incuietori: [ inc(i,3), inc(i,2), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,3), (d,0)]
+5) Incuietori: [ inc(i,2), inc(i,3), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,1), inc(i,4), (d,0)]
+6) Incuietori: [ inc(i,1), inc(i,4), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(i,3), (d,0)]
+7) Incuietori: [ inc(i,1), inc(i,3), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(d,0), inc(i,4), (d,0)]
+8) Incuietori: [ inc(d,0), inc(i,4), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,3), (d,0)]
+9) Incuietori: [ inc(d,0), inc(i,3), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,2), (d,0)]
+10) Incuietori: [ inc(d,0), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,1), (d,0)]
+11) Incuietori: [ inc(d,0), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(d,0), (d,0)]
+Incuietori(stare scop): [ inc(d,0), inc(d,0), (d,0)]
+S-au realizat : 11 operatii.
+Lungimea drumului: 12
+Runtime of the program is: 15.042001008987427
+-------------------------------------------------------
+Solutie: 20
+1) Incuietori: [ inc(i,1), inc(i,1), (i,1)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,2), (d,0)]
+2) Incuietori: [ inc(i,2), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,2), inc(i,1), (d,0)]
+3) Incuietori: [ inc(i,2), inc(i,1), (d,0)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,3), inc(i,2), (d,0)]
+4) Incuietori: [ inc(i,3), inc(i,2), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,3), (d,0)]
+5) Incuietori: [ inc(i,2), inc(i,3), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,1), inc(i,4), (d,0)]
+6) Incuietori: [ inc(i,1), inc(i,4), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(i,3), (d,0)]
+7) Incuietori: [ inc(i,1), inc(i,3), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(i,2), (d,0)]
+8) Incuietori: [ inc(i,1), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(i,1), (d,0)]
+9) Incuietori: [ inc(i,1), inc(i,1), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(d,0), inc(i,2), (d,0)]
+10) Incuietori: [ inc(d,0), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,1), (d,0)]
+11) Incuietori: [ inc(d,0), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(d,0), (d,0)]
+Incuietori(stare scop): [ inc(d,0), inc(d,0), (d,0)]
+S-au realizat : 11 operatii.
+Lungimea drumului: 12
+Runtime of the program is: 15.135201215744019
+-------------------------------------------------------
+Solutie: 21
+1) Incuietori: [ inc(i,1), inc(i,1), (i,1)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,2), (d,0)]
+2) Incuietori: [ inc(i,2), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,2), inc(i,1), (d,0)]
+3) Incuietori: [ inc(i,2), inc(i,1), (d,0)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,3), inc(i,2), (d,0)]
+4) Incuietori: [ inc(i,3), inc(i,2), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,3), (d,0)]
+5) Incuietori: [ inc(i,2), inc(i,3), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,1), inc(i,4), (d,0)]
+6) Incuietori: [ inc(i,1), inc(i,4), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(i,3), (d,0)]
+7) Incuietori: [ inc(i,1), inc(i,3), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(i,2), (d,0)]
+8) Incuietori: [ inc(i,1), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(i,1), (d,0)]
+9) Incuietori: [ inc(i,1), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(d,0), (d,0)]
+10) Incuietori: [ inc(i,1), inc(d,0), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(d,0), inc(i,1), (d,0)]
+11) Incuietori: [ inc(d,0), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(d,0), (d,0)]
+Incuietori(stare scop): [ inc(d,0), inc(d,0), (d,0)]
+S-au realizat : 11 operatii.
+Lungimea drumului: 12
+Runtime of the program is: 15.143249273300171
+-------------------------------------------------------
+Solutie: 22
+1) Incuietori: [ inc(i,1), inc(i,1), (i,1)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,2), (d,0)]
+2) Incuietori: [ inc(i,2), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,2), inc(i,1), (d,0)]
+3) Incuietori: [ inc(i,2), inc(i,1), (d,0)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,3), inc(i,2), (d,0)]
+4) Incuietori: [ inc(i,3), inc(i,2), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,3), (d,0)]
+5) Incuietori: [ inc(i,2), inc(i,3), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,1), inc(i,4), (d,0)]
+6) Incuietori: [ inc(i,1), inc(i,4), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(i,3), (d,0)]
+7) Incuietori: [ inc(i,1), inc(i,3), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(i,2), (d,0)]
+8) Incuietori: [ inc(i,1), inc(i,2), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(d,0), inc(i,3), (d,0)]
+9) Incuietori: [ inc(d,0), inc(i,3), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,2), (d,0)]
+10) Incuietori: [ inc(d,0), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,1), (d,0)]
+11) Incuietori: [ inc(d,0), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(d,0), (d,0)]
+Incuietori(stare scop): [ inc(d,0), inc(d,0), (d,0)]
+S-au realizat : 11 operatii.
+Lungimea drumului: 12
+Runtime of the program is: 15.15540885925293
+-------------------------------------------------------
+Solutie: 23
+1) Incuietori: [ inc(i,1), inc(i,1), (i,1)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,2), (d,0)]
+2) Incuietori: [ inc(i,2), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,2), inc(i,1), (d,0)]
+3) Incuietori: [ inc(i,2), inc(i,1), (d,0)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,3), inc(i,2), (d,0)]
+4) Incuietori: [ inc(i,3), inc(i,2), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,3), (d,0)]
+5) Incuietori: [ inc(i,2), inc(i,3), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,1), inc(i,4), (d,0)]
+6) Incuietori: [ inc(i,1), inc(i,4), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(d,0), inc(i,5), (d,0)]
+7) Incuietori: [ inc(d,0), inc(i,5), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,4), (d,0)]
+8) Incuietori: [ inc(d,0), inc(i,4), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,3), (d,0)]
+9) Incuietori: [ inc(d,0), inc(i,3), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,2), (d,0)]
+10) Incuietori: [ inc(d,0), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,1), (d,0)]
+11) Incuietori: [ inc(d,0), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(d,0), (d,0)]
+Incuietori(stare scop): [ inc(d,0), inc(d,0), (d,0)]
+S-au realizat : 11 operatii.
+Lungimea drumului: 12
+Runtime of the program is: 15.450209617614746
+-------------------------------------------------------
+Solutie: 24
+1) Incuietori: [ inc(i,1), inc(i,1), (i,1)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,2), (d,0)]
+2) Incuietori: [ inc(i,2), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,2), inc(i,1), (d,0)]
+3) Incuietori: [ inc(i,2), inc(i,1), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,1), inc(i,2), (d,0)]
+4) Incuietori: [ inc(i,1), inc(i,2), (d,0)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,3), (d,0)]
+5) Incuietori: [ inc(i,2), inc(i,3), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,1), inc(i,4), (d,0)]
+6) Incuietori: [ inc(i,1), inc(i,4), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,1), inc(i,3), (d,0)]
+7) Incuietori: [ inc(i,1), inc(i,3), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(d,0), inc(i,4), (d,0)]
+8) Incuietori: [ inc(d,0), inc(i,4), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,3), (d,0)]
+9) Incuietori: [ inc(d,0), inc(i,3), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,2), (d,0)]
+10) Incuietori: [ inc(d,0), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,1), (d,0)]
+11) Incuietori: [ inc(d,0), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(d,0), (d,0)]
+Incuietori(stare scop): [ inc(d,0), inc(d,0), (d,0)]
+S-au realizat : 11 operatii.
+Lungimea drumului: 12
+Runtime of the program is: 23.702452182769775
+-------------------------------------------------------
+Solutie: 25
+1) Incuietori: [ inc(i,1), inc(i,1), (i,1)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,2), (d,0)]
+2) Incuietori: [ inc(i,2), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,2), inc(i,1), (d,0)]
+3) Incuietori: [ inc(i,2), inc(i,1), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,1), inc(i,2), (d,0)]
+4) Incuietori: [ inc(i,1), inc(i,2), (d,0)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,3), (d,0)]
+5) Incuietori: [ inc(i,2), inc(i,3), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,1), inc(i,4), (d,0)]
+6) Incuietori: [ inc(i,1), inc(i,4), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(d,0), inc(i,5), (d,0)]
+7) Incuietori: [ inc(d,0), inc(i,5), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,4), (d,0)]
+8) Incuietori: [ inc(d,0), inc(i,4), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,3), (d,0)]
+9) Incuietori: [ inc(d,0), inc(i,3), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,2), (d,0)]
+10) Incuietori: [ inc(d,0), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,1), (d,0)]
+11) Incuietori: [ inc(d,0), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(d,0), (d,0)]
+Incuietori(stare scop): [ inc(d,0), inc(d,0), (d,0)]
+S-au realizat : 11 operatii.
+Lungimea drumului: 12
+Runtime of the program is: 24.05624294281006
+-------------------------------------------------------
+Solutie: 26
+1) Incuietori: [ inc(i,1), inc(i,1), (i,1)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,2), (d,0)]
+2) Incuietori: [ inc(i,2), inc(i,2), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,1), inc(i,3), (d,0)]
+3) Incuietori: [ inc(i,1), inc(i,3), (d,0)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,4), (d,0)]
+4) Incuietori: [ inc(i,2), inc(i,4), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(i,2), inc(i,3), (d,0)]
+5) Incuietori: [ inc(i,2), inc(i,3), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,1), inc(i,4), (d,0)]
+6) Incuietori: [ inc(i,1), inc(i,4), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(d,0), inc(i,5), (d,0)]
+7) Incuietori: [ inc(d,0), inc(i,5), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,4), (d,0)]
+8) Incuietori: [ inc(d,0), inc(i,4), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,3), (d,0)]
+9) Incuietori: [ inc(d,0), inc(i,3), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,2), (d,0)]
+10) Incuietori: [ inc(d,0), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,1), (d,0)]
+11) Incuietori: [ inc(d,0), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(d,0), (d,0)]
+Incuietori(stare scop): [ inc(d,0), inc(d,0), (d,0)]
+S-au realizat : 11 operatii.
+Lungimea drumului: 12
+Runtime of the program is: 28.34580659866333
+-------------------------------------------------------
+Solutie: 27
+1) Incuietori: [ inc(i,1), inc(i,1), (i,1)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,2), (d,0)]
+2) Incuietori: [ inc(i,2), inc(i,2), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,1), inc(i,3), (d,0)]
+3) Incuietori: [ inc(i,1), inc(i,3), (d,0)]
+Folosim cheia: ['i', 'i', 'd'] pentru a ajunge la [ inc(i,2), inc(i,4), (d,0)]
+4) Incuietori: [ inc(i,2), inc(i,4), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(i,1), inc(i,5), (d,0)]
+5) Incuietori: [ inc(i,1), inc(i,5), (d,0)]
+Folosim cheia: ['d', 'i', 'd'] pentru a ajunge la [ inc(d,0), inc(i,6), (d,0)]
+6) Incuietori: [ inc(d,0), inc(i,6), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,5), (d,0)]
+7) Incuietori: [ inc(d,0), inc(i,5), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,4), (d,0)]
+8) Incuietori: [ inc(d,0), inc(i,4), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,3), (d,0)]
+9) Incuietori: [ inc(d,0), inc(i,3), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,2), (d,0)]
+10) Incuietori: [ inc(d,0), inc(i,2), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(i,1), (d,0)]
+11) Incuietori: [ inc(d,0), inc(i,1), (d,0)]
+Folosim cheia: ['g', 'd', 'g'] pentru a ajunge la [ inc(d,0), inc(d,0), (d,0)]
+Incuietori(stare scop): [ inc(d,0), inc(d,0), (d,0)]
+S-au realizat : 11 operatii.
+Lungimea drumului: 12
+Runtime of the program is: 29.925442457199097
+-------------------------------------------------------
+Time is out!
